@@ -21,26 +21,23 @@ Tierces parties (startups, entreprises).
 Configuration et Installation
 Pour configurer et installer cette DApp sur votre système, suivez les instructions dans le guide d'installation.
 
-Utilisation
-Découvrez comment utiliser cette DApp dans le guide d'utilisation.
-
 # Acteurs
-Entreprise 
+Entreprise
+
 Etudiant 
 
 # Architecture du Projet
 Le projet est conçu selon une architecture décentralisée, reposant sur la technologie blockchain. Il utilise des contrats intelligents pour gérer les transactions de vérification de diplômes et d'évaluations de PFE. Les données sont stockées de manière sécurisée sur la blockchain, garantissant l'authenticité et l'intégrité.
 
 # Technologies de Développement
-Langages de programmation : Solidity (pour les contrats intelligents), JavaScript (pour l'interface utilisateur).
-Environnement de développement : Truffle, Remix, ou un environnement de développement Ethereum compatible.
+Langages de programmation : Solidity (pour les contrats intelligents)
+Environnement de développement : Remix.
 Blockchain : à déterminer 
 
 # Configuration et Installation
 Pour configurer et installer cette DApp sur votre système, suivez les instructions dans le guide d'installation.
 à terminer
 
-# Technologie
 
 # Auteur
 
