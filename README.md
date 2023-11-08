@@ -13,7 +13,7 @@
 # Auteur
 
 Assane Diop
-Ibrahim
+Ibrahim Chouay 
 Karima Barbich
 Chelson Suprême
 
