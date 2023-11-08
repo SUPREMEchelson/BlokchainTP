@@ -1,4 +1,3 @@
-![bigDataimage](https://user-images.githubusercontent.com/43779857/202323288-ec72d648-30ab-425e-b9b4-aadce2242500.jpg)
 
 # Projet de Vérification de Diplômes et d'Évaluations de PFE
 Ce projet est une Application Décentralisée (DApp) basée sur la blockchain qui vise à résoudre le problème de vérification de l'authenticité des diplômes délivrés par les établissements d'enseignement supérieur, ainsi que la vérification des évaluations de Projet de Fin d'Études (PFE) réalisées par les entreprises. Cette DApp utilise la technologie blockchain pour créer un écosystème de confiance dans le domaine du recrutement des diplômés.
