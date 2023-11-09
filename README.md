@@ -24,7 +24,7 @@ Pour configurer et installer cette DApp sur votre système, suivez les instructi
 # Acteurs
 Entreprise
 
-Etudiant 
+Etablisement 
 
 # Architecture du Projet
 Le projet est conçu selon une architecture décentralisée, reposant sur la technologie blockchain. Il utilise des contrats intelligents pour gérer les transactions de vérification de diplômes et d'évaluations de PFE. Les données sont stockées de manière sécurisée sur la blockchain, garantissant l'authenticité et l'intégrité.
