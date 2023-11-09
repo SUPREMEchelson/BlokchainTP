@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_etablissement",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nom_ees",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_type_ees",
+						"type": "string"
+					}
+				],
+				"name": "creerCompteEtablissement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nextDiplomeId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nextEtablissementId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nextEtudiantId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Projet_Blockchain/_Etablissement.sol": "Gestion_Etablissement"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Projet_Blockchain/_Etablissement.sol": {
+			"keccak256": "0x96b2a51f8d61aa1bb2e09b28f64c4f0aadb06aab5a02975aa7649feb6cf04786",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2327178706006f07ca5c90c50741b847fc97d1e9214f6bc55f37f4713de069f4",
+				"dweb:/ipfs/QmRMCGwmQYpZhP4uKGQJCNUjwVKQ49TMLsReLEkLhA3uHQ"
+			]
+		}
+	},
+	"version": 1
+}

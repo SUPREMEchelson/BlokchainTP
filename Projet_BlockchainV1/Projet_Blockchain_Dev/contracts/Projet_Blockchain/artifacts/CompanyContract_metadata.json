@@ -1,0 +1,171 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract EstablishmentContract",
+						"name": "_contractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "adminC",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "companies",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "address_",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "recruitmentAgent",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_address",
+						"type": "string"
+					}
+				],
+				"name": "createCompany",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "establishmentContract",
+				"outputs": [
+					{
+						"internalType": "contract EstablishmentContract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_companyId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_evaluation",
+						"type": "uint256"
+					}
+				],
+				"name": "insertEvaluation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Projet_Blockchain_Dev/contracts/Projet_Blockchain/_Entreprise.sol": "CompanyContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Projet_Blockchain_Dev/contracts/Projet_Blockchain/_Entreprise.sol": {
+			"keccak256": "0x3bccdf783d9f3bf4f03b3723b773512fa62580873bb732d55b6ef63e69034cf7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eab1ee586e245352fd9d780305e3ec5fc37fc535af745f083babd52c4e20b170",
+				"dweb:/ipfs/QmS8ys7oQZYygQihoYgVrZJKXHLawhRk8gpiH4FknoJNFJ"
+			]
+		},
+		"Projet_Blockchain_Dev/contracts/Projet_Blockchain/_Etablissement.sol": {
+			"keccak256": "0xf52835ba436895a71dc1b86f334c4eb701d42b278aae490f1d0b91f6631a30db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf2a20861009b33988f4b8c91ecfb52bec214577037c81c1c3bce09c8804dccf",
+				"dweb:/ipfs/Qmdm3W6y2CoG3qfk7GSNbavJvd5S6SaaUSFaRUGxHVWDBc"
+			]
+		}
+	},
+	"version": 1
+}
