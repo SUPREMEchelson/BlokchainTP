@@ -32,7 +32,7 @@ Le projet est conçu selon une architecture décentralisée, reposant sur la tec
 # Technologies de Développement
 Langages de programmation : Solidity (pour les contrats intelligents)
 Environnement de développement : Remix.
-Blockchain : à déterminer 
+Blockchain : Ethereum 
 
 # Configuration et Installation
 Pour configurer et installer cette DApp sur votre système, suivez les instructions dans le guide d'installation.
